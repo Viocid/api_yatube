@@ -1,6 +1,5 @@
 from posts.models import Comment, Group, Post
 from rest_framework import viewsets
-from rest_framework.authtoken.views import obtain_auth_token
 from rest_framework.exceptions import PermissionDenied
 
 from .serializers import CommentSerializer, GroupSerializer, PostSerializer
